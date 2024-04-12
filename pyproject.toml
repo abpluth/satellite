@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "satellite-monitor"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+uvicorn = "^0.29.0"
+requests = "^2.31.0"
+asgiref = "^3.8.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
